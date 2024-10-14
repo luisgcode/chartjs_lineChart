@@ -1,9 +1,10 @@
 import "./App.css";
+import LineChart from "./LineChart";
 
 function App() {
   return (
     <div className="App">
-      Testing gh page first{/* Insert the graph here */}
+      <LineChart />
     </div>
   );
 }

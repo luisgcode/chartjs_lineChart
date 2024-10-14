@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 1.6rem;
+}
+
+img,
+picture,
+svg,
+video,
+canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+figure,
+figcaption,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/*missing alt attribute*/
+img:not([alt]) {
+  outline-offset: 0.5rem;
+  outline: 0.5rem dashed red;
+}
+
+/*empty alt attribute*/
+img[alt=""] {
+  outline-offset: 1.5rem;
+  outline: 0.5rem solid blue;
+}
