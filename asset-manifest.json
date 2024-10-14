@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/luisgcode/chartjs_lineChart/static/css/main.a90982f4.css",
-    "main.js": "/luisgcode/chartjs_lineChart/static/js/main.c44000d8.js",
+    "main.js": "/luisgcode/chartjs_lineChart/static/js/main.2a6067b8.js",
     "index.html": "/luisgcode/chartjs_lineChart/index.html",
     "main.a90982f4.css.map": "/luisgcode/chartjs_lineChart/static/css/main.a90982f4.css.map",
-    "main.c44000d8.js.map": "/luisgcode/chartjs_lineChart/static/js/main.c44000d8.js.map"
+    "main.2a6067b8.js.map": "/luisgcode/chartjs_lineChart/static/js/main.2a6067b8.js.map"
   },
   "entrypoints": [
     "static/css/main.a90982f4.css",
-    "static/js/main.c44000d8.js"
+    "static/js/main.2a6067b8.js"
   ]
 }
