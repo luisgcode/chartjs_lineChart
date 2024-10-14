@@ -3,13 +3,16 @@ export const data_base = {
   datasets: [
     {
       label: "Calls - Customer service",
-      data: [216, 225, 152, 572, 288, 385, 400],
-      borderColor: "rgba(75, 192, 192)",
+      data: [216, 225, 452, 372, 288, 385, 400],
+      borderColor: "#003f5c",
+      backgroundColor: "#003f5c",
     },
     {
       label: "Solved",
-      data: [156, 198, 152, 568, 122, 111, 300],
-      borderColor: "rgba(78, 092, 92)",
+      data: [156, 198, 352, 368, 222, 211, 300],
+      borderColor: "#ffa600",
+      // bg of the tag on the top
+      backgroundColor: "#ffa600",
     },
   ],
 };

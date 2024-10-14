@@ -15,6 +15,7 @@ import {
   Ticks,
 } from "chart.js";
 import { data_base } from "./DATA_GRAPH";
+import { color } from "chart.js/helpers";
 
 ChartJS.register(
   CategoryScale,
@@ -27,8 +28,34 @@ ChartJS.register(
 );
 
 const LineChart = () => {
-  const data = [];
-  const options = [];
+  const data = {};
+  const options = {
+    scales: {
+      // Cambios en el eje x
+      x: {
+        // Ticks son los ejes
+        ticks: {
+          showLabelBackdrop: true,
+          // El color de la informacion en eje x
+          color: "gray",
+          //   Texto
+          font: {
+            weight: "bold",
+          },
+        },
+      },
+      y: {
+        ticks: {
+          //   Texto
+          font: {
+            weight: "bold",
+          },
+          // El color de la informacion en eje Y
+          color: "black",
+        },
+      },
+    },
+  };
   return (
     <div>
       <div className="graph-container">
