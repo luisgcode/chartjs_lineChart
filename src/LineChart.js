@@ -32,7 +32,11 @@ const LineChart = () => {
   return (
     <div>
       <div className="graph-container">
-        <h2>Calories and Steps</h2>
+        <h2>
+          Number of calls received in SAC, with the number of calls solved by{" "}
+          <br />
+          the Customer service Team.
+        </h2>
 
         <div className="graph-wrapper">
           <Line className="thegraph" data={data_base} options={options} />
